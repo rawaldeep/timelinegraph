@@ -86,24 +86,16 @@ body {
   height: 12px;
   border-radius: 100%;
   position: absolute;
-  right: -7px;
+  right: -8px;
   top: -4px;
 }
 
 #PrizmWrapper .ps-timeline-sec .container ol.ps-timeline
 {
-  margin: 250px 0 0;
-  height: 300px;
+    height: 304px;
   padding: 0;
   list-style: none;
-  border-width: 5px;
-  background: transparent;
   pointer-events: none;
-    border-style: solid;
-    border-color: transparent;
-    border-top: transparent;
-    border-left: transparent;
-    border-radius: 100% 0px;
 }
 
 #PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li
@@ -466,9 +458,51 @@ body {
     position: absolute;
     left: calc(12.5%*7);
 }
-/* #PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='2'] span.ps-sp-bot:before{
-    height: 95px;
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='2'] span.ps-sp-bot:before{
+    height: 100px;
 }
 #PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='2'] span.ps-sp-bot:after{
-    bottom: -95px;
-} */
+    bottom: -100px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='3'] span.ps-sp-bot:before{
+    height: 105px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='3'] span.ps-sp-bot:after{
+    bottom: -105px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='4'] span.ps-sp-bot:before{
+    height: 120px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='4'] span.ps-sp-bot:after{
+    bottom: -120px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='4'] span.ps-sp-bot:before{
+    height: 120px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='4'] span.ps-sp-bot:after{
+    bottom: -120px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='5'] span.ps-sp-bot:before{
+    height: 140px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='5'] span.ps-sp-bot:after{
+    bottom: -140px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='6'] span.ps-sp-bot:before{
+    height: 165px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='6'] span.ps-sp-bot:after{
+    bottom: -165px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='7'] span.ps-sp-bot:before{
+    height: 210px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='7'] span.ps-sp-bot:after{
+    bottom: -210px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='8'] span.ps-sp-bot:before{
+    height: 285px;
+}
+#PrizmWrapper .ps-timeline-sec .container ol.ps-timeline li[data-position='8'] span.ps-sp-bot:after{
+    bottom: -285px;
+}
